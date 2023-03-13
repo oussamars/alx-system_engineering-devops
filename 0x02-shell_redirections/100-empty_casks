@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in $(find . -empty); do echo "${file##*/}"; done
+find . -empty -exec basename {} \;
