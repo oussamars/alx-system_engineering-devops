@@ -1,2 +1,2 @@
 #!/bin/bash
-dir /s /b /a-d /a:dh | findstr "^$"
+for file in $(find . -empty); do echo "${file##*/}"; done
