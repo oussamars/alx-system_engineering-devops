@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "(Ôo)'
+head -n 1 "(Ôo)'
